@@ -3,7 +3,6 @@ import Link from "next/link";
 import React from "react";
 import Cart from "@/assets/images/cart.png";
 
-
 const CartIcon = () => {
   return (
     <Link href="/cart" className="flex items-center gap-1">

@@ -17,7 +17,7 @@ const Footer = () => {
           target="_blank"
         >
           Sara Azmin
-        </ExternalLink>{" "}
+        </ExternalLink>
         &nbsp;| All rights Reserved
       </p>
     </div>
