@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import BannerImage from "@/assets/images/slide1.png";
+import BannerImage from "@/assets/images/slide3.jpg";
 
 const data = [
   {
@@ -26,7 +26,7 @@ const Banner = () => {
     <div className="flex flex-col h-[calc(100vh-6rem)] md:h-[calc(100vh-9rem)] lg:flex-row bg-orange-50">
       <div className="flex-1 flex items-center justify-center flex-col gap-5 text-orange-600 font-bold">
         <h1 className="text-4xl text-center uppercase p-2 md:p-10 md:text-5xl xl:text-6xl">
-        always fresh & always crispy & always hot!
+        the best pizza to share with your loved ones!
         </h1>
         <button className="bg-orange-600 text-white px-8 py-4 rounded-lg hover:border-orange-600 hover:bg-white hover:text-orange-600 border-2 border-transparent">Order Now</button>
       </div>
