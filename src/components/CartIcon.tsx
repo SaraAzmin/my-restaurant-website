@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import Cart from "@/assets/images/cart.png";
+import Cart from "../../public/images/cart.png";
 
 const CartIcon = () => {
   return (

@@ -2,8 +2,8 @@
 
 import Image from "next/image";
 import React, { useState } from "react";
-import openIcon from "@/assets/images/open.png";
-import closeIcon from "@/assets/images/close.png";
+import openIcon from "../../public/images/open.png";
+import closeIcon from "../../public/images/close.png";
 import Link from "next/link";
 import CartIcon from "./CartIcon";
 

@@ -3,7 +3,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import Menu from "./Menu";
 import CartIcon from "./CartIcon";
-import Phone from "@/assets/images/phone.png";
+import Phone from "../../public/images/phone.png";
 
 const Navbar = () => {
   const user = false;
