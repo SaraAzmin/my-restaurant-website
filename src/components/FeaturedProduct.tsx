@@ -16,7 +16,7 @@ const FeaturedProduct = () => {
               className="w-screen h-[60vh] flex flex-col items-center justify-around p-4 hover:bg-orange-50 transition-all duration-300 md:w-[45vw] xl:w-[25vw] xl:h-[70vh] border-2 rounded-md mr-5"
             >
               {item.img && (
-                <div className="relative flex-1 w-2/3 h-2/3 hover:rotate-[60deg] transition-all duration-500">
+                <div className="relative flex-1 w-2/3 h-2/3 transition-all duration-500">
                   <Image
                     src={item.img}
                     alt=""
